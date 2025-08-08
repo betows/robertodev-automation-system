@@ -1,0 +1,28 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "apps/bot",
+    "apps/dashboard",
+    "packages/database",
+    "packages/ai-services",
+    "packages/instagram-api",
+    "packages/landing-generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betows/robertodev-automation-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/betows/robertodev-automation-system/issues"
+  },
+  "homepage": "https://github.com/betows/robertodev-automation-system#readme"
+}
